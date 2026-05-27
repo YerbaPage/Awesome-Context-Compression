@@ -364,6 +364,28 @@ Learned policies optimize compression behavior from data:
 
 ---
 
+## ⚠️ Failure Modes
+
+<p align="center">
+  <img src="figures/section5.png" alt="Failure modes taxonomy" width="92%" />
+</p>
+
+<p align="center">
+  <img src="figures/cases123.png" alt="Failure modes cases" width="92%" />
+</p>
+
+We organize context compression failures by the earliest stage at which they arise: **F1: Pre-compression Decision Error** (wrong moment, target, or granularity), **F2: In-compression Information Loss** (semantic or structural corruption during transformation), and **F3: Post-compression Access Failure** (information cannot be correctly recovered when needed).
+
+<ul>
+<li><b>F1: Pre-compression Decision Error</b>: The system compresses too early, selects the wrong content, or uses an overly coarse granularity, causing important information to disappear before compression begins. Representative work includes <i><b>Beyond Static Summarization: Proactive Memory Extraction for LLM Agents</b></i> (Yang et al., <a href="https://arxiv.org/abs/2601.04463" target="_blank">arXiv</a>) and <i><b>Context as a Tool: Context Management for Long-Horizon SWE-Agents</b></i> (Liu et al., <a href="https://arxiv.org/abs/2512.22087" target="_blank">arXiv</a>).</li>
+<li><b>F2: In-compression Information Loss</b>: The compression step itself distorts semantics, structure, relations, or constraints, so the compressed state is no longer faithful to the original task evidence. Representative work includes <i><b>HaluMem: Evaluating Hallucinations in Memory Systems of Agents</b></i> (Chen et al., <a href="https://arxiv.org/abs/2511.03506" target="_blank">arXiv</a>), <i><b>Learning How to Remember: A Meta-Cognitive Management Method for Structured and Transferable Agent Memory</b></i> (Liang et al., <a href="https://arxiv.org/abs/2601.07470" target="_blank">arXiv</a>), and <i><b>ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents</b></i> (Wu et al., <a href="https://arxiv.org/abs/2604.23069" target="_blank">arXiv</a>).</li>
+<li><b>F3: Post-compression Access Failure</b>: The compressed information remains stored somewhere, but retrieval or reconstruction fails later, so the agent cannot recover the right state when it is needed. Representative work includes <i><b>OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory</b></i> (Li et al., <a href="https://arxiv.org/abs/2604.26622" target="_blank">arXiv</a>) and <i><b>KVCache-Centric Memory for LLM Agents</b></i> (Zeng et al., <a href="https://openreview.net/forum?id=YolJOZOGhI" target="_blank">OpenReview</a>).</li>
+</ul>
+
+Together, these three categories form a temporal failure taxonomy over the compression pipeline: the earliest causal failure determines the label, because downstream errors in agent workflows often propagate from an upstream mistake.
+
+---
+
 ## 🌍 Domain-Specific Analysis
 
 <p align="center">
