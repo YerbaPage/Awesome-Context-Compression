@@ -31,7 +31,7 @@ You can also open an issue in this repository for general discussions and sugges
 ## 🎯 Introduction
 
 <p align="center">
-  <img src="figures/intro.png" alt="Introduction" width="92%" />
+  <img src="figures/intro.png" alt="Introduction" width="70%" />
 </p>
 
 With the rapid evolution of LLM agents, long context has become a central challenge across open-ended domains such as automated software engineering, visual GUI navigation, and deep research. As agents continuously interact with dynamic environments, their operational history forms an **unbounded agentic trajectory**. This trajectory, typified by the interleaved and heterogeneous ReAct paradigm of Actions, Thoughts, and Observations (A-T-O), can quickly exhaust the LLM context window and trigger severe **context explosion**. Such explosion leads to cascading failures in which information density drops, critical constraints fade, and long-horizon planning deteriorates.
