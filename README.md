@@ -305,7 +305,7 @@ Compressing at the embedding, KV-cache, or visual representation level.
 
 ---
 
-## 🧭 Control Policies and Intervention Timing
+## 🧭 Control Policies and Intervention Timing(Who/When)
 
 > **Who decides** when compression happens, and **when** should the system intervene?
 
