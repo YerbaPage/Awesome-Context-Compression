@@ -1,0 +1,78 @@
+% Datasets / benchmarks table for context management survey
+% This file is self-contained: it includes the table, introductory text,
+% and notes that can be inserted directly into the main paper.
+
+\clearpage
+\onecolumn
+
+\footnotesize
+\setlength{\tabcolsep}{4.2pt}
+\renewcommand{\arraystretch}{1.12}
+\sloppy
+
+\begin{longtable}{>{\raggedright\arraybackslash\hspace{0pt}}p{5.65cm} >{\raggedright\arraybackslash\hspace{0pt}}p{2.55cm} >{\raggedright\arraybackslash\hspace{0pt}}p{7.00cm}}
+\toprule[1.5pt]
+\textbf{Benchmark} & \textbf{Source \& year} & \textbf{Open Source} \\
+\midrule
+\endfirsthead
+
+\toprule[1.5pt]
+\textbf{Benchmark} & \textbf{Source \& year} & \textbf{Open Source} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{3}{r}{\footnotesize Continued on next page} \\
+\endfoot
+
+\bottomrule[1.5pt]
+\caption{Representative datasets and benchmarks for agent context management.}
+\label{tab:datasets_benchmarks}
+\endlastfoot
+
+SWE-bench Verified~\citep{jimenez2024swebench} & ICLR 2024 & \url{https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified} \\
+GAIA~\citep{mialon2023gaia} & arXiv 2023 & \url{https://huggingface.co/datasets/gaia-benchmark/GAIA} \\
+BrowseComp~\citep{wei2025browsecomp} & arXiv 2025 & \url{https://github.com/openai/simple-evals} \\
+BrowseComp-Plus~\citep{chen2025browsecompplus} & ACL 2026 & \url{https://huggingface.co/datasets/Tevatron/browsecomp-plus} \\
+BrowseComp-ZH~\citep{zhou2025browsecompzh} & arXiv 2025 & \url{https://huggingface.co/datasets/PALIN2018/BrowseComp-ZH} \\
+Mind2Web~\citep{deng2023mind2web} & NeurIPS 2023 & \url{https://huggingface.co/datasets/osunlp/Mind2Web} \\
+Multimodal-Mind2Web~\citep{zheng2024seeact} & ICML 2024 & \url{https://huggingface.co/datasets/osunlp/Multimodal-Mind2Web} \\
+HLE~\citep{phan2025humanitys} & arXiv 2025 & \url{https://huggingface.co/datasets/cais/hle} \\
+AppWorld~\citep{trivedi2024appworld} & ACL 2024 & \url{https://github.com/StonyBrookNLP/appworld} \\
+OfficeBench~\citep{wang2024officebench} & arXiv 2024 & \url{https://github.com/zlwang-cs/OfficeBench} \\
+HotpotQA~\citep{yang2018hotpotqa} & EMNLP 2018 & \url{https://hotpotqa.github.io/} \\
+Natural Questions~\citep{kwiatkowski2019natural} & TACL 2019 & \url{https://github.com/google-research-datasets/natural-questions} \\
+TriviaQA~\citep{joshi2017triviaqa} & ACL 2017 & \url{http://nlp.cs.washington.edu/triviaqa/} \\
+GSM8K~\citep{cobbe2021training} & arXiv 2021 & \url{https://github.com/openai/grade-school-math} \\
+MATH / MATH-500~\citep{hendrycksmath2021} & NeurIPS 2021 & \url{https://github.com/hendrycks/math} \\
+SWE-bench Lite~\citep{jimenez2024swebench} & ICLR 2024 & \url{https://huggingface.co/datasets/princeton-nlp/SWE-bench_Lite} \\
+ALFWorld~\citep{shridhar2021alfworld} & ICLR 2021 & \url{https://github.com/alfworld/alfworld} \\
+WebShop~\citep{yao2022webshop} & NeurIPS 2022 & \url{https://github.com/princeton-nlp/webshop} \\
+AndroidWorld / AW-Extend~\citep{rawles2024androidworld} & ICLR 2025 & \url{https://github.com/google-research/android_world} \\
+DeepResearch Bench~\citep{du2025deepresearch} & arXiv 2025 & \url{https://github.com/Ayanami0730/deep_research_bench} \\
+TerminalBench (TB 1.0 / 2.0)~\citep{merrill2026terminalbench} & arXiv 2026 & \url{https://github.com/harbor-framework/terminal-bench} \\
+MRQA~\citep{fisch-etal-2019-mrqa} & EMNLP WS 2019 & \url{https://huggingface.co/datasets/mrqa} \\
+CodeXGLUE~\citep{lu2021codexglue} & NeurIPS / FSE 2021 & \url{https://github.com/microsoft/CodeXGLUE} \\
+AIOpsLab~\citep{chen2025aiopslab} & MLSys 2025 & \url{https://microsoft.github.io/AIOpsLab/} \\
+Loghub~\citep{zhu2023loghub} & ISSRE 2023 & \url{https://github.com/logpai/loghub} \\
+LongBench~\citep{bai2024longbench} & MLSys 2024 & \url{https://huggingface.co/datasets/THUDM/LongBench} \\
+LongBench V2~\citep{bai2025longbenchv2} & ACL 2025 & \url{https://longbench2.github.io} \\
+BABILong~\citep{NEURIPS2024_babilong} & NeurIPS 2024 & \url{https://github.com/booydar/babilong} \\
+ADRS Benchmark~\citep{cheng2025barbarians} & arXiv 2025 & \url{https://github.com/UCB-ADRS/ADRS} \\
+WorkArena~\citep{drouin2024workarena} & ICML 2024 & \url{https://github.com/ServiceNow/WorkArena} \\
+MiniWoB~\citep{shi2017world} & ICML 2017 & \url{https://miniwob.farama.org/} \\
+MiniWoB++~\citep{liu2018reinforcement} & ICLR 2018 & \url{https://miniwob.farama.org/} \\
+NeedleBench~\citep{li2024needlebench} & arXiv 2024 & \url{https://github.com/open-compass/opencompass} \\
+NIAH~\citep{liu2023lost} & arXiv 2023 & \url{https://github.com/open-compass/opencompass} \\
+HaluMem~\citep{chen2025halumem} & arXiv 2025 & \url{https://huggingface.co/datasets/IAAR-Shanghai/HaluMem} \\
+LongMemEval~\citep{wu2025longmemeval} & ICLR 2025 & \url{https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned} \\
+LoCoEval Framework~\citep{liu2026scalable} & arXiv 2026 & - \\
+DevEval~\citep{li2024deveval} & ACL Findings 2024 & \url{https://github.com/seketeam/DevEval} \\
+WideSearch~\citep{wong2025widesearch} & ICLR 2026 & \url{https://huggingface.co/datasets/ByteDance-Seed/WideSearch} \\
+CompileBench / CRUST-Bench~\citep{khatry2025crustbench} & COLM 2025 & \url{https://github.com/QuesmaOrg/CompileBench} \\
+GovReport~\citep{huang-etal-2021-efficient} & NAACL 2021 & \url{https://gov-report-data.github.io/} \\
+SummScreenFD~\citep{chen-etal-2022-summscreen} & ACL 2022 & \url{https://gov-report-data.github.io/} \\
+\end{longtable}
+
+\clearpage
+\twocolumn

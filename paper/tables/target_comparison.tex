@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{@{}p{2.4cm}p{2.6cm}p{1.5cm}p{1.5cm}p{1.8cm}p{3.5cm}@{}}
+\toprule
+\textbf{\raisebox{-0.15em}{\includegraphics[height=1em]{icons/target.pdf}}~Target} & \textbf{\raisebox{-0.15em}{\includegraphics[height=1em]{icons/pyramid.pdf}}~Granularity} & \textbf{Information Density} & \textbf{Causal Coupling} & \textbf{Recoverability} & \textbf{\raisebox{-0.15em}{\includegraphics[height=1em]{icons/failure.pdf}}~Typical Failure Symptom} \\
+\midrule
+\textbf{Observation} & Token / Segment & Very Low & Weak & Low & Structural Distortion \\
+\textbf{Trajectory} & Episode & Low & Moderate & Moderate & Planning Drift \\
+\textbf{Plan \& Reasoning} & State & High & Very Strong & Very Low & Metacognitive Error \\
+\textbf{Memory State} & State & High & Strong & Very Low & Retrieval Blindness \\
+\textbf{Representation} & Token / Latent & Very High & None & None & Semantic Collapse \\
+\bottomrule
+\end{tabular}
+% \vspace{-.2cm}
+\caption{A comparative anatomy of compression targets. Each target is characterized by its granularity, information density, causal coupling, and recoverability, which collectively shape its compressibility and its failure symptom.}
+\label{tab:target_comparison}
+\vspace{-.2in}
+\end{table*}

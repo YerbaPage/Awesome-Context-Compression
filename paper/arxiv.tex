@@ -1,0 +1,210 @@
+\documentclass[11pt]{article}
+
+% Change "review" to "final" to generate the final (sometimes called camera-ready) version.
+% Change to "preprint" to generate a non-anonymous version with page numbers.
+\usepackage[preprint]{acl}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+%Including images in your LaTeX document requires adding
+%additional package(s)
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{tabularx}
+\usepackage{array}
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{Context Compression for LLM Agents:\\ A Survey of Methods, Failure Modes, and Evaluation}
+% \title{Context Compression for Long-Horizon Agents:\\ A Survey of Methods, Failure Modes, and Evaluation}
+
+
+\author{
+    \textbf{Yifei Wang\textsuperscript{1,2}}\thanks{These authors contributed equally.},
+    \textbf{Ziteng Wang\textsuperscript{4}}\footnotemark[1],
+    \textbf{Yuling Shi\textsuperscript{3}},
+    \textbf{Silin Chen\textsuperscript{3}},
+    \textbf{Xinrui Wang\textsuperscript{5}},
+    \textbf{Yueqi Wang\textsuperscript{6}},\\
+    \textbf{Beijun Shen\textsuperscript{3}},
+    \textbf{Linjing Li\textsuperscript{5}},
+    \textbf{Xiaodong Gu\textsuperscript{3}},
+    \textbf{Julian McAuley\textsuperscript{6}},
+    \textbf{Daniel Dajun Zeng\textsuperscript{5}}\\
+    \textsuperscript{1}State Key Laboratory of Multimodal Artificial Intelligence Systems,\\Institute of Automation, Chinese Academy of Sciences,\\
+    \textsuperscript{2}School of Artificial Intelligence, University of Chinese Academy of Sciences,\\
+    \textsuperscript{3}Shanghai Jiao Tong University,
+    \textsuperscript{4}Hefei University of Technology,\\
+    \textsuperscript{5}Institute of Automation, Chinese Academy of Sciences,
+    \textsuperscript{6}University of California, San Diego\\
+    % \small{
+    %     \textbf{Correspondence:} \href{mailto:beijun@sjtu.edu.cn}{beijun@sjtu.edu.cn},
+    %     \href{mailto:linjing@ia.ac.cn}{linjing@ia.ac.cn},
+    %     \href{mailto:xiaodong@sjtu.edu.cn}{xiaodong@sjtu.edu.cn},
+    %     \href{mailto:mcauley@ucsd.edu}{mcauley@ucsd.edu},
+    %     \href{mailto:d.zeng@ia.ac.cn}{d.zeng@ia.ac.cn}
+    % }
+}
+
+
+% 新导入的包
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{threeparttable}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{trees, positioning, shapes, calc}
+\usepackage{genealogytree}
+\usepackage{tcolorbox}
+% 新导入的包
+
+% 新定义的全局命令
+\newcommand{\ffmt}[2]{\textbf{F#1}:\ \textit{#2}}
+\newcommand{\fone}{\ffmt{1}{Pre-compression Decision Error}}
+\newcommand{\ftwo}{\ffmt{2}{In-compression Information Loss}}
+\newcommand{\fthree}{\ffmt{3}{Post-compression Access Failure}}
+% 新定义的全局命令
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\input{sections/0_abstract}
+\end{abstract}
+
+
+\section{Introduction}
+\label{sec:1_introduction}
+\input{sections/1_introduction}
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/taxonomy.pdf}
+    \vspace{-.2cm}
+    \caption{A design-space view of agent context compression. The figure synthesizes targets, mechanisms, and control policies into a method-level landscape, grouping approaches by compression semantics while preserving chronological evolution. See Appendix~\ref{app:methodology} and \ref{ap:extended_taxonomies} for methodology, taxonomy details, and open-source resources.}
+    \label{fig:taxonomy_tree}
+\vspace{-.4cm}
+\end{figure*}
+
+\section{Redefining Context: From Static Prompts to Dynamic Trajectories}
+\label{sec:2_background}
+\input{sections/2_background}
+
+\begin{figure*}[t]
+    \centering
+    \captionbox{A temporal taxonomy of context compression failures. Failures are classified by the earliest point at which they occur in the compression pipeline.\label{fig:failure_modes_taxonomy}}[\textwidth]{%
+        \includegraphics[width=\linewidth]{figures/section5.pdf}%
+    \vspace{-.2cm}
+    }
+\vspace{-.3cm}
+\end{figure*}
+
+\section{Compression as Sufficient State Approximation}
+\label{sec:3_formal_view}
+\input{sections/3_formal_view}
+
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=\textwidth]{figures/cases123.pdf}
+    \caption{
+    Three illustrative cases of context compression failure modes. 
+    F1 shows a pre-compression decision error, where the compression controller misclassifies authentication state and API-call details as low-level noise before summarization. 
+    F2 shows in-compression information loss, where a compression module distorts the evidential balance by weakening uncertainty, negative evidence, and caveats. 
+    F3 shows a post-compression access failure, where the correct memory item exists after compression but is not correctly expanded or retrieved, causing the agent to use an outdated wrong chunk.
+    }
+    \label{fig:case-studies-compression-failures}
+\end{figure*}
+
+
+\section{A Taxonomy of Agent Compression}
+\label{sec:3_taxonomy}
+\input{sections/3_targets_taxonomy}
+
+\begin{figure*}[ht]
+    \centering
+    \vspace{-.2cm}
+    \captionbox{Domain-specific context compression regimes, contrasting setup, workflow, interaction loop, dominant risks, and strategy choices.\label{fig:domain_specific_regimes}}[\textwidth]{%
+        \includegraphics[width=\linewidth]{figures/section6.pdf}
+    }
+% \vspace{-.3cm}
+\end{figure*}
+
+\section{Failure Modes}
+\label{sec:4_failure_modes}
+\input{sections/4_failure_modes}
+
+
+\section{Domain-Specific Analysis}
+\label{sec:5_domain_specific_analysis}
+\input{sections/5_domain_specific_analysis}
+
+
+% \input{tables/5_evaluation_dimensions}
+\section{Beyond Task Success: Rethinking Evaluation}
+\label{sec:6_evaluation}
+\input{sections/6_evaluation}
+
+
+% \section{Open Problems \& Future Directions}
+% \label{sec:7_future_directions}
+% \input{sections/7_future_directions}
+
+
+\section{Conclusion}
+\label{sec:8_conclusion}
+\input{sections/8_conclusion}
+
+
+\section*{Limitations}
+\label{sec:limitations}
+\input{sections/limitations.tex}
+
+% Bibliography entries for the entire Anthology, followed by custom entries
+%\bibliography{custom,anthology-overleaf-1,anthology-overleaf-2}
+
+% Custom bibliography entries only
+\bibliography{custom}
+
+\appendix
+
+\input{sections/appendix}
+
+\end{document}
