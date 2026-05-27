@@ -305,6 +305,65 @@ Compressing at the embedding, KV-cache, or visual representation level.
 
 ---
 
+## 🧭 Control Policies and Intervention Timing
+
+> **Who decides** when compression happens, and **when** should the system intervene?
+
+This axis captures the control logic that schedules compression, recovery, or memory updates. In practice, the same compression operator can be triggered by fixed system rules, an external manager, the agent itself, or a learned policy. The key distinction is not only the trigger source, but also whether intervention is reactive, periodic, or proactive.
+
+| Policy | Who decides | Typical trigger | Strength | Limitation |
+|--------|-------------|-----------------|----------|------------|
+| **System-controlled** | Fixed system rule | Token budget, step count, length threshold | Cheap, predictable, easy to benchmark | Semantically blind |
+| **External controller** | Separate module / planner | Utility estimate, state monitor, retriever signal | Modular and stable | Extra overhead and latency |
+| **Agent-controlled** | The agent itself | Self-assessed need, task state, uncertainty | Semantically aware and proactive | Vulnerable to self-assessment errors |
+| **Learned** | Trained policy | Reward / utility maximization | Adaptable to task objectives | Data- and compute-intensive |
+
+### System-Controlled Policies
+
+System-controlled policies apply fixed rules to trigger compression:
+
+<ul>
+<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (AgentDiet), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
+<li><i><b>The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management</b></i>, Lindenbauer et al., <a href="https://arxiv.org/abs/2508.21433" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
+<li><i><b>SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents</b></i>, Wang et al., <a href="https://arxiv.org/abs/2601.16746" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
+</ul>
+
+### External Controller Policies
+
+External-controller policies delegate the decision to a separate module:
+
+<ul>
+<li><i><b>PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents</b></i>, Liu et al., <a href="https://arxiv.org/abs/2510.00413" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression</b></i>, Bai et al., <a href="https://arxiv.org/abs/2512.13956" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
+<li><i><b>ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents</b></i>, Wu et al., <a href="https://arxiv.org/abs/2604.01664" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
+<li><i><b>Step-DeepResearch Technical Report</b></i>, Hu et al., <a href="https://arxiv.org/abs/2512.20491" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
+</ul>
+
+### Agent-Controlled Policies
+
+Agent-controlled policies make compression part of the agent's own action space:
+
+<ul>
+<li><i><b>Context as a Tool: Context Management for Long-Horizon SWE-Agents</b></i> (CAT), Liu et al., <a href="https://arxiv.org/abs/2512.22087" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
+<li><i><b>Active Context Compression: Autonomous Memory Management in LLM Agents</b></i> (Focus/ACC), Verma, <a href="https://arxiv.org/abs/2601.07190" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
+<li><i><b>AgentFold: Long-Horizon Web Agents with Proactive Context Management</b></i>, Ye et al., <a href="https://arxiv.org/abs/2510.24699" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>Sculptor: Empowering LLMs with Cognitive Agency via Active Context Management</b></i>, Li et al., <a href="https://arxiv.org/abs/2508.04664" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
+<li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a></li>
+</ul>
+
+### Learned Policies
+
+Learned policies optimize compression behavior from data:
+
+<ul>
+<li><i><b>ACON: Optimizing Context Compression for Long-horizon LLM Agents</b></i>, Kang et al., <a href="https://arxiv.org/abs/2510.00615" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>COMPASS: Enhancing Agent Long-Horizon Reasoning with Evolving Context</b></i>, Wan et al., <a href="https://arxiv.org/abs/2510.08790" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization</b></i>, Wu et al., <a href="https://arxiv.org/abs/2509.13313" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
+<li><i><b>AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression</b></i>, Bai et al., <a href="https://arxiv.org/abs/2512.13956" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
+</ul>
+
+---
+
 ## 🌍 Domain-Specific Analysis
 
 <p align="center">
