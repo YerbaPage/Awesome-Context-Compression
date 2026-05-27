@@ -307,6 +307,14 @@ Compressing at the embedding, KV-cache, or visual representation level.
 
 ## 🌍 Domain-Specific Analysis
 
+<p align="center">
+  <img src="figures/section6.png" alt="Domain specific" width="92%" />
+</p>
+
+<p align="center">
+  <img src="figures/domain_taxonomy.png" alt="Domain taxonomy" width="92%" />
+</p>
+
 ### Coding Agents
 
 Coding agents require **high structural fidelity** — compressed context must preserve code structure, file relationships, and error traces faithfully.
