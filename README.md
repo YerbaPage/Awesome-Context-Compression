@@ -176,7 +176,7 @@ Compressing the accumulated action–observation history of agent execution trac
 <li><i><b>Scaling Long-Horizon LLM Agent via Context-Folding</b></i> (Context-Folding), Sun et al., <a href="https://arxiv.org/abs/2510.11967" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
 </ul>
 
-### Plan & Reasoning Compression
+### Plan and Reasoning Compression
 
 Compressing planning traces, chain-of-thought reasoning, and intermediate deliberation.
 
