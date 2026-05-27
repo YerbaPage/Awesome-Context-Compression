@@ -45,6 +45,10 @@ This repository organizes the literature along three axes forming a coordinate s
 | **What (γ)** | Granularity | Token/Segment → Episode → State |
 | **Who (π)** | Policy | System → External controller → Agent-self → Learned |
 
+<p align="center">
+  <img src="figures/taxonomy.pdf" alt="Agent context compression taxonomy" width="92%" />
+</p>
+
 ---
 
 ## 📚 Table of Contents
