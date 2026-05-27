@@ -31,7 +31,7 @@ You can also open an issue in this repository for general discussions and sugges
 ## 🎯 Introduction
 
 <p align="center">
-  <img src="figures/intro.svg" alt="Introduction" width="92%" />
+  <img src="figures/intro.png" alt="Introduction" width="92%" />
 </p>
 
 With the rapid evolution of LLM agents, long context has become a central challenge across open-ended domains such as automated software engineering, visual GUI navigation, and deep research. As agents continuously interact with dynamic environments, their operational history forms an **unbounded agentic trajectory**. This trajectory, typified by the interleaved and heterogeneous ReAct paradigm of Actions, Thoughts, and Observations (A-T-O), can quickly exhaust the LLM context window and trigger severe **context explosion**. Such explosion leads to cascading failures in which information density drops, critical constraints fade, and long-horizon planning deteriorates.
@@ -50,7 +50,7 @@ This repository organizes the literature along three axes: **what** is selected 
 | **Who/When** | Control policies and intervention timing | System-controlled → External controller → Agent-controlled → Learned |
 
 <p align="center">
-  <img src="figures/taxonomy.svg" alt="Agent context compression taxonomy" width="92%" />
+  <img src="figures/taxonomy.png" alt="Agent context compression taxonomy" width="92%" />
 </p>
 
 ---
@@ -126,10 +126,10 @@ This repository organizes the literature along three axes: **what** is selected 
 
 Agent context differs fundamentally from static prompts. The unified pipeline formulation is **S → C → M → R** (Sense → Compress → Memorize → Respond). Key challenges include:
 
-- **Dynamic growth** — context accumulates with every step
-- **Heterogeneous structure** — code, HTML, tool outputs, plans coexist
-- **Deferred utility** — seemingly useless info may matter later
-- **Error persistence** — compression errors propagate and compound
+- **Dynamic growth**: Context expands with every observation, action, and tool output
+- **Heterogeneous composition**: A-T-O trajectories mix code, HTML, plans, and dialogue history
+- **Multi-step dependency**: Information irrelevant now may matter later
+- **Error propagation**: Compression mistakes compound over long horizons
 
 <ul>
 <li><i><b>ReAct: Synergizing Reasoning and Acting in Language Models</b></i>, Yao et al., <a href="https://arxiv.org/abs/2210.03629" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023-red" alt="arXiv Badge"></a>
@@ -138,7 +138,7 @@ Agent context differs fundamentally from static prompts. The unified pipeline fo
 
 ---
 
-## 🎯 Compression Targets
+## 🎯 Compression Targets(What)
 
 ### Observation Compression
 
@@ -222,9 +222,9 @@ Compressing context at the embedding or KV-cache level rather than at the text l
 
 ---
 
-## 🔧 Compression Methods
+## 🔧 Compression Mechanisms(How)
 
-### Truncation & Masking
+### Masking and Truncation
 
 Simple but effective strategies that remove or mask parts of the context based on rules or heuristics.
 
@@ -237,7 +237,7 @@ Simple but effective strategies that remove or mask parts of the context based o
 <li><i><b>SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context</b></i>, Lian et al., <a href="https://arxiv.org/abs/2604.11716" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
 </ul>
 
-### Summarization & Abstraction
+### Summarization and Abstraction
 
 Using LLMs or specialized models to produce condensed summaries of context segments.
 
@@ -258,7 +258,7 @@ Using LLMs or specialized models to produce condensed summaries of context segme
 <li><i><b>Beyond Static Summarization: Proactive Memory Extraction for LLM Agents</b></i> (ProMem), Yang et al., <a href="https://arxiv.org/abs/2601.04463" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
 </ul>
 
-### Pruning & Reduction
+### Pruning and Reduction
 
 Selectively removing less important tokens, segments, or episodes from context.
 
@@ -276,7 +276,7 @@ Selectively removing less important tokens, segments, or episodes from context.
 <li><i><b>LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents</b></i>, Lu et al., <a href="https://arxiv.org/abs/2605.05191" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.05-red" alt="arXiv Badge"></a></li>
 </ul>
 
-### Externalization & Retrieval
+### Externalization and Retrieval
 
 Moving information out of the prompt into external stores and retrieving on demand.
 
@@ -290,7 +290,7 @@ Moving information out of the prompt into external stores and retrieving on dema
 <li><i><b>Git Context Controller: Manage the Context of LLM-based Agents like Git</b></i> (GCC), Wu et al., <a href="https://arxiv.org/abs/2508.00031" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
 </ul>
 
-### Representation-Level Methods
+### Representation Compression
 
 Compressing at the embedding, KV-cache, or visual representation level.
 
