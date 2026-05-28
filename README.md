@@ -140,6 +140,10 @@ Agent context differs fundamentally from static prompts. The unified pipeline fo
 
 ## 🎯 Compression Targets(What)
 
+<p align="center">
+  <img src="figures/targets_table.png" alt=" comparative anatomy of compression targets" width="92%" />
+</p>
+
 ### Observation Compression
 
 Compressing raw environment observations (HTML pages, code files, tool outputs, screenshots) before they enter the agent context.
