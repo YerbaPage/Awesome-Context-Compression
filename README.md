@@ -533,7 +533,7 @@ If you find this survey helpful in your research, please consider citing:
 
 ```bibtex
 @article{awesome-context-compression,
-  title={Context Compression in Long-Horizon LLM-based Agents: A Survey},
+  title={Context Compression for LLM Agents: A Survey of Methods, Failure Modes, and Evaluation},
   year={2026},
 }
 ```
