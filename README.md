@@ -141,7 +141,7 @@ Agent context differs fundamentally from static prompts. The unified pipeline fo
 ## 🎯 Compression Targets(What)
 
 <p align="center">
-  <img src="figures/targets_table.png" alt=" comparative anatomy of compression targets" width="92%" />
+  <img src="figures/targets_table.png" alt="A comparative anatomy of compression targets" width="92%" />
 </p>
 
 ### Observation Compression
@@ -401,6 +401,10 @@ Together, these three categories form a temporal failure taxonomy over the compr
 </p>
 
 ### Coding Agents
+
+<p align="center">
+  <img src="figures/coding_table.png" alt="Pipeline-level comparison of recent production-grade coding agents" width="92%" />
+</p>
 
 Coding agents require **high structural fidelity** — compressed context must preserve code structure, file relationships, and error traces faithfully.
 
