@@ -2,10 +2,10 @@
 
 <div align="center">
 
+[![Paper](https://img.shields.io/badge/Paper-Preprints-green.svg)](https://www.preprints.org/manuscript/202605.2065)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-<!-- [![Paper](https://img.shields.io/badge/Paper-Published-green.svg)](https://arxiv.org/abs/XXXX.XXXXX) -->
 
 </div>
 
@@ -57,29 +57,43 @@ This repository organizes the literature along three axes: **what** is selected 
 
 ## 📚 Table of Contents
 
-- [Related Surveys](#-related-surveys)
-- [Background & Foundations](#-background--foundations)
-- [Compression Targets](#-compression-targets)
-  - [Observation Compression](#observation-compression)
-  - [Trajectory Compression](#trajectory-compression)
-  - [Plan & Reasoning Compression](#plan--reasoning-compression)
-  - [Memory State Compression](#memory-state-compression)
-  - [Representation-Level Compression](#representation-level-compression)
-- [Compression Methods](#-compression-methods)
-  - [Truncation & Masking](#truncation--masking)
-  - [Summarization & Abstraction](#summarization--abstraction)
-  - [Pruning & Reduction](#pruning--reduction)
-  - [Externalization & Retrieval](#externalization--retrieval)
-  - [Representation-Level Methods](#representation-level-methods)
-- [Domain-Specific Analysis](#-domain-specific-analysis)
-  - [Coding Agents](#coding-agents)
-  - [Web & GUI Agents](#web--gui-agents)
-  - [Research & Deep-Search Agents](#research--deep-search-agents)
-  - [Multi-Agent Systems](#multi-agent-systems)
-- [Evaluation & Benchmarks](#-evaluation--benchmarks)
-- [Future Directions](#-future-directions)
-- [Contributing](#-contributing)
-- [Citation](#-citation)
+- [Awesome Context Compression for LLM Agents](#awesome-context-compression-for-llm-agents)
+  - [📰 News](#-news)
+  - [🎯 Introduction](#-introduction)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [🔗 Related Surveys](#-related-surveys)
+  - [🏗️ Background \& Foundations](#️-background--foundations)
+  - [🎯 Compression Targets(What)](#-compression-targetswhat)
+    - [Observation Compression](#observation-compression)
+    - [Trajectory Compression](#trajectory-compression)
+    - [Plan and Reasoning Compression](#plan-and-reasoning-compression)
+    - [Memory State Compression](#memory-state-compression)
+    - [Representation-Level Compression](#representation-level-compression)
+  - [🔧 Compression Mechanisms(How)](#-compression-mechanismshow)
+    - [Masking and Truncation](#masking-and-truncation)
+    - [Summarization and Abstraction](#summarization-and-abstraction)
+    - [Pruning and Reduction](#pruning-and-reduction)
+    - [Externalization and Retrieval](#externalization-and-retrieval)
+    - [Representation Compression](#representation-compression)
+  - [🧭 Control Policies and Intervention Timing(Who/When)](#-control-policies-and-intervention-timingwhowhen)
+    - [System-Controlled Policies](#system-controlled-policies)
+    - [External Controller Policies](#external-controller-policies)
+    - [Agent-Controlled Policies](#agent-controlled-policies)
+    - [Learned Policies](#learned-policies)
+  - [⚠️ Failure Modes](#️-failure-modes)
+  - [🌍 Domain-Specific Analysis](#-domain-specific-analysis)
+    - [Coding Agents](#coding-agents)
+    - [Web \& GUI Agents](#web--gui-agents)
+    - [Research \& Deep-Search Agents](#research--deep-search-agents)
+    - [Multi-Agent Systems](#multi-agent-systems)
+  - [📊 Evaluation \& Benchmarks](#-evaluation--benchmarks)
+  - [🔮 Future Directions](#-future-directions)
+  - [🤝 Contributing](#-contributing)
+    - [Paper Formatting Guidelines](#paper-formatting-guidelines)
+    - [Badge Colors](#badge-colors)
+  - [📄 License](#-license)
+  - [📑 Citation](#-citation)
+  - [⭐ Star History](#-star-history)
 
 ---
 
@@ -534,16 +548,29 @@ If you find this survey helpful in your research, please consider citing:
 ```bibtex
 @article{awesome-context-compression,
   title={Context Compression for LLM Agents: A Survey of Methods, Failure Modes, and Evaluation},
+  author={Wang, Yifei and Wang, Ziteng and Shi, Yuling and Chen, Silin and Wang, Xinrui and Wang, Yueqi and Shen, Beijun and Li, Linjing and Gu, Xiaodong and McAuley, Julian and Zeng, Daniel Dajun},
+  journal={Preprints},
   year={2026},
+  url={https://www.preprints.org/manuscript/202605.2065}
 }
 ```
 
 ---
 
-## ⚠️ Disclaimer
+**Star ⭐ this repository if you find it helpful!**
 
-This project is **ongoing** and continuously evolving. We welcome corrections, suggestions, and contributions from the community.
+This repository is actively maintained and we **keep updating** it with the latest work on context compression for LLM agents. Contributions are very welcome — feel free to open an issue or pull request!
 
 ---
 
-**Star ⭐ this repository if you find it helpful!**
+## ⭐ Star History
+
+<p align="center">
+  <a href="https://star-history.com/#YerbaPage/Awesome-Context-Compression&Date">
+    <img src="https://api.star-history.com/svg?repos=YerbaPage/Awesome-Context-Compression&type=Date" alt="Star History Chart" width="70%" />
+  </a>
+</p>
+
+---
+
+
