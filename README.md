@@ -547,12 +547,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you find this survey helpful in your research, please consider citing:
 
 ```bibtex
-@article{awesome-context-compression,
-  title={Context Compression for LLM Agents: A Survey of Methods, Failure Modes, and Evaluation},
-  author={Wang, Yifei and Wang, Ziteng and Shi, Yuling and Chen, Silin and Wang, Xinrui and Wang, Yueqi and Shen, Beijun and Li, Linjing and Gu, Xiaodong and McAuley, Julian and Zeng, Daniel Dajun},
-  journal={Preprints},
-  year={2026},
-  url={https://www.preprints.org/manuscript/202605.2065}
+@article{202605.2065,
+	doi = {10.20944/preprints202605.2065.v1},
+	url = {https://doi.org/10.20944/preprints202605.2065.v1},
+	year = 2026,
+	month = {May},
+	publisher = {Preprints},
+	author = {Yifei Wang and Ziteng Wang and Yuling Shi and Silin Chen and Xinrui Wang and Yueqi Wang and Beijun Shen and Linjing Li and Xiaodong Gu and Julian McAuley and Daniel Dajun Zeng},
+	title = {Context Compression for LLM Agents: A Survey of Methods, Failure Modes, and Evaluation},
+	journal = {Preprints}
 }
 ```
 
