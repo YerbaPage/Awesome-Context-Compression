@@ -113,7 +113,7 @@ This repository organizes the literature along three axes: **what** is selected 
 <ul>
 <li><i><b>LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models</b></i>, Jiang et al., <a href="https://aclanthology.org/2023.emnlp-main.825/" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2023.12-blue" alt="EMNLP Badge"></a>
     <a href="https://github.com/microsoft/LLMLingua" target="_blank"><img src="https://img.shields.io/github/stars/microsoft/LLMLingua.svg?style=social" alt="GitHub stars"></a></li>
-<li><i><b>LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression</b></i>, Jiang et al., <a href="https://arxiv.org/abs/2310.06839" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024-red" alt="arXiv Badge"></a>
+<li><i><b>LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression</b></i>, Jiang et al., <a href="https://arxiv.org/abs/2310.06839" target="_blank"><img src="https://img.shields.io/badge/ACL-2024-blue" alt="ACL Badge"></a>
     <a href="https://github.com/microsoft/LLMLingua" target="_blank"><img src="https://img.shields.io/github/stars/microsoft/LLMLingua.svg?style=social" alt="GitHub stars"></a></li>
 <li><i><b>Compressing Context to Enhance Inference Efficiency of Large Language Models</b></i>, Li et al., <a href="https://aclanthology.org/2023.emnlp-main.391/" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2023.12-blue" alt="EMNLP Badge"></a></li>
 </ul>
@@ -122,14 +122,14 @@ This repository organizes the literature along three axes: **what** is selected 
 
 <ul>
 <li><i><b>Tool Learning with Foundation Models</b></i>, Qin et al., <a href="https://doi.org/10.1145/3704435" target="_blank"><img src="https://img.shields.io/badge/ACM_Computing_Surveys-2024-blue" alt="ACM Badge"></a></li>
-<li><i><b>AgentBench: Evaluating LLMs as Agents</b></i>, Liu et al., <a href="https://arxiv.org/abs/2308.03688" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025-red" alt="arXiv Badge"></a></li>
-<li><i><b>WebArena: A Realistic Web Environment for Building Autonomous Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2307.13854" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024-red" alt="arXiv Badge"></a></li>
+<li><i><b>AgentBench: Evaluating LLMs as Agents</b></i>, Liu et al., <a href="https://arxiv.org/abs/2308.03688" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024-blue" alt="ICLR Badge"></a></li>
+<li><i><b>WebArena: A Realistic Web Environment for Building Autonomous Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2307.13854" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024-blue" alt="ICLR Badge"></a></li>
 </ul>
 
 <b>Long Context</b>
 
 <ul>
-<li><i><b>Lost in the Middle: How Language Models Use Long Contexts</b></i>, Liu et al., <a href="https://arxiv.org/abs/2307.03172" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.07-red" alt="arXiv Badge"></a></li>
+<li><i><b>Lost in the Middle: How Language Models Use Long Contexts</b></i>, Liu et al., <a href="https://aclanthology.org/2024.tacl-1.9/" target="_blank"><img src="https://img.shields.io/badge/TACL-2023-blue" alt="TACL Badge"></a></li>
 <li><i><b>Longformer: The Long-Document Transformer</b></i>, Beltagy et al., <a href="https://arxiv.org/abs/2004.05150" target="_blank"><img src="https://img.shields.io/badge/arXiv-2020.04-red" alt="arXiv Badge"></a></li>
 <li><i><b>LLM Maybe LongLM: SelfExtend LLM Context Window Without Tuning</b></i>, Jin et al., <a href="https://arxiv.org/abs/2401.01325" target="_blank"><img src="https://img.shields.io/badge/ICML-2024-blue" alt="ICML Badge"></a>
     <a href="https://github.com/datamllab/LongLM" target="_blank"><img src="https://img.shields.io/github/stars/datamllab/LongLM.svg?style=social" alt="GitHub stars"></a></li>
@@ -147,7 +147,7 @@ Agent context differs fundamentally from static prompts. The unified pipeline fo
 - **Error propagation**: Compression mistakes compound over long horizons
 
 <ul>
-<li><i><b>ReAct: Synergizing Reasoning and Acting in Language Models</b></i>, Yao et al., <a href="https://arxiv.org/abs/2210.03629" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023-red" alt="arXiv Badge"></a>
+<li><i><b>ReAct: Synergizing Reasoning and Acting in Language Models</b></i>, Yao et al., <a href="https://arxiv.org/abs/2210.03629" target="_blank"><img src="https://img.shields.io/badge/ICLR-2023-blue" alt="ICLR Badge"></a>
     <a href="https://github.com/ysymyth/ReAct" target="_blank"><img src="https://img.shields.io/github/stars/ysymyth/ReAct.svg?style=social" alt="GitHub stars"></a></li>
 </ul>
 
@@ -164,15 +164,15 @@ Agent context differs fundamentally from static prompts. The unified pipeline fo
 Compressing raw environment observations (HTML pages, code files, tool outputs, screenshots) before they enter the agent context.
 
 <ul>
-<li><i><b>The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management</b></i>, Lindenbauer et al., <a href="https://arxiv.org/abs/2508.21433" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
-<li><i><b>A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis</b></i> (HTML-T5), Gur et al., <a href="https://arxiv.org/abs/2307.12856" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024-red" alt="arXiv Badge"></a></li>
+<li><i><b>The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management</b></i>, Lindenbauer et al., <a href="https://arxiv.org/abs/2508.21433" target="_blank"><img src="https://img.shields.io/badge/NeurIPS_Workshop-2025-blue" alt="NeurIPS Workshop Badge"></a></li>
+<li><i><b>A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis</b></i> (HTML-T5), Gur et al., <a href="https://arxiv.org/abs/2307.12856" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024_(Oral)-blue" alt="ICLR Badge"></a></li>
 <li><i><b>Learning to Contextualize Web Pages for Enhanced Decision Making by LLM Agents</b></i> (LCoW), Lee et al., <a href="https://arxiv.org/abs/2503.10689" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.03-red" alt="arXiv Badge"></a></li>
 <li><i><b>SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents</b></i>, Wang et al., <a href="https://arxiv.org/abs/2601.16746" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
 <li><i><b>PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents</b></i>, Liu et al., <a href="https://arxiv.org/abs/2510.00413" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
 <li><i><b>MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers</b></i>, Wang et al., <a href="https://arxiv.org/abs/2508.20453" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
 <li><i><b>Step-DeepResearch Technical Report</b></i>, Hu et al., <a href="https://arxiv.org/abs/2512.20491" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
 <li><i><b>AttentionRAG: Attention-Guided Context Pruning in Retrieval-Augmented Generation</b></i>, Fang et al., <a href="https://arxiv.org/abs/2503.10720" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.03-red" alt="arXiv Badge"></a></li>
-<li><i><b>LongCodeZip: Compress Long Context for Code Language Models</b></i>, Shi et al., <a href="https://arxiv.org/abs/2510.00446" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>LongCodeZip: Compress Long Context for Code Language Models</b></i>, Shi et al., <a href="https://arxiv.org/abs/2510.00446" target="_blank"><img src="https://img.shields.io/badge/ASE-2025-blue" alt="ASE Badge"></a></li>
 <li><i><b>A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression</b></i> (TACO), Ren et al., <a href="https://arxiv.org/abs/2604.19572" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
 <li><i><b>CodeOCR: On the Effectiveness of Vision Language Models in Code Understanding</b></i>, Shi et al., <a href="https://arxiv.org/abs/2602.01785" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
 </ul>
@@ -182,15 +182,15 @@ Compressing raw environment observations (HTML pages, code files, tool outputs, 
 Compressing the accumulated action–observation history of agent execution traces.
 
 <ul>
-<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (AgentDiet), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
+<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (AgentDiet), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/FSE-2026-blue" alt="FSE Badge"></a></li>
 <li><i><b>ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization</b></i>, Wu et al., <a href="https://arxiv.org/abs/2509.13313" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
 <li><i><b>WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning</b></i>, Wang et al., <a href="https://arxiv.org/abs/2602.12852" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
-<li><i><b>AgentFold: Long-Horizon Web Agents with Proactive Context Management</b></i>, Ye et al., <a href="https://arxiv.org/abs/2510.24699" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>AgentFold: Long-Horizon Web Agents with Proactive Context Management</b></i>, Ye et al., <a href="https://arxiv.org/abs/2510.24699" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue" alt="ICLR Badge"></a></li>
 <li><i><b>Active Context Compression: Autonomous Memory Management in LLM Agents</b></i> (Focus/ACC), Verma, <a href="https://arxiv.org/abs/2601.07190" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
 <li><i><b>Context as a Tool: Context Management for Long-Horizon SWE-Agents</b></i> (CAT), Liu et al., <a href="https://arxiv.org/abs/2512.22087" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
 <li><i><b>ContextEvolve: Multi-Agent Context Compression for Systems Code Optimization</b></i>, Su et al., <a href="https://arxiv.org/abs/2602.02597" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
 <li><i><b>ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents</b></i>, Wu et al., <a href="https://arxiv.org/abs/2604.01664" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
-<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (BACM), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
+<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (BACM), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/FSE-2026-blue" alt="FSE Badge"></a></li>
 <li><i><b>LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents</b></i>, Lu et al., <a href="https://arxiv.org/abs/2605.05191" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.05-red" alt="arXiv Badge"></a></li>
 <li><i><b>Scaling Long-Horizon LLM Agent via Context-Folding</b></i> (Context-Folding), Sun et al., <a href="https://arxiv.org/abs/2510.11967" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
 </ul>
@@ -200,7 +200,7 @@ Compressing the accumulated action–observation history of agent execution trac
 Compressing planning traces, chain-of-thought reasoning, and intermediate deliberation.
 
 <ul>
-<li><i><b>ACON: Optimizing Context Compression for Long-horizon LLM Agents</b></i>, Kang et al., <a href="https://arxiv.org/abs/2510.00615" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>ACON: Optimizing Context Compression for Long-horizon LLM Agents</b></i>, Kang et al., <a href="https://arxiv.org/abs/2510.00615" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue" alt="ICLR Badge"></a></li>
 <li><i><b>PAACE: A Plan-Aware Automated Agent Context Engineering Framework</b></i>, Yuksel, <a href="https://arxiv.org/abs/2512.16970" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
 <li><i><b>Self-Compression of Chain-of-Thought via Multi-Agent Reinforcement Learning</b></i> (SCMA), Chen et al., <a href="https://arxiv.org/abs/2601.21919" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
 <li><i><b>COMPASS: Enhancing Agent Long-Horizon Reasoning with Evolving Context</b></i>, Wan et al., <a href="https://arxiv.org/abs/2510.08790" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
@@ -214,7 +214,7 @@ Compressing planning traces, chain-of-thought reasoning, and intermediate delibe
 Compressing and managing long-term memory states, knowledge stores, and persistent agent state.
 
 <ul>
-<li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a></li>
+<li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2025-blue" alt="NeurIPS Badge"></a></li>
 <li><i><b>AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression</b></i>, Bai et al., <a href="https://arxiv.org/abs/2512.13956" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
 <li><i><b>AI Agents Need Memory Control Over More Context</b></i>, Bousetouane, <a href="https://arxiv.org/abs/2601.11653" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
 <li><i><b>Sculptor: Empowering LLMs with Cognitive Agency via Active Context Management</b></i>, Li et al., <a href="https://arxiv.org/abs/2508.04664" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
@@ -232,7 +232,7 @@ Compressing context at the embedding or KV-cache level rather than at the text l
 
 <ul>
 <li><i><b>AgentOCR: Reimagining Agent History via Optical Self-Compression</b></i>, Feng et al., <a href="https://arxiv.org/abs/2601.04786" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
-<li><i><b>Q-KVComm: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression</b></i>, Kriuk & Ng, <a href="https://arxiv.org/abs/2512.17914" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
+<li><i><b>Q-KVComm: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression</b></i>, Kriuk & Ng, <a href="https://arxiv.org/abs/2512.17914" target="_blank"><img src="https://img.shields.io/badge/ICMSCI-2026-blue" alt="ICMSCI Badge"></a></li>
 <li><i><b>Cross-Modal Memory Compression for Efficient Multi-Agent Debate</b></i> (DebateOCR), Wu et al., <a href="https://arxiv.org/abs/2602.00454" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
 <li><i><b>Autoencoding-Free Context Compression for LLMs via Contextual Semantic Anchors</b></i> (SAC), Liu et al., <a href="https://arxiv.org/abs/2510.08907" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
 <li><i><b>PoC: Performance-oriented Context Compression for Large Language Models via Performance Prediction</b></i>, Zhao et al., <a href="https://arxiv.org/abs/2603.19733" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.03-red" alt="arXiv Badge"></a></li>
@@ -248,7 +248,7 @@ Compressing context at the embedding or KV-cache level rather than at the text l
 Simple but effective strategies that remove or mask parts of the context based on rules or heuristics.
 
 <ul>
-<li><i><b>The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management</b></i>, Lindenbauer et al., <a href="https://arxiv.org/abs/2508.21433" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
+<li><i><b>The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management</b></i>, Lindenbauer et al., <a href="https://arxiv.org/abs/2508.21433" target="_blank"><img src="https://img.shields.io/badge/NeurIPS_Workshop-2025-blue" alt="NeurIPS Workshop Badge"></a></li>
 <li><i><b>SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents</b></i>, Wang et al., <a href="https://arxiv.org/abs/2601.16746" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
 <li><i><b>LLM Maybe LongLM: SelfExtend LLM Context Window Without Tuning</b></i>, Jin et al., <a href="https://arxiv.org/abs/2401.01325" target="_blank"><img src="https://img.shields.io/badge/ICML-2024-blue" alt="ICML Badge"></a>
     <a href="https://github.com/datamllab/LongLM" target="_blank"><img src="https://img.shields.io/github/stars/datamllab/LongLM.svg?style=social" alt="GitHub stars"></a></li>
@@ -261,7 +261,7 @@ Simple but effective strategies that remove or mask parts of the context based o
 Using LLMs or specialized models to produce condensed summaries of context segments.
 
 <ul>
-<li><i><b>ACON: Optimizing Context Compression for Long-horizon LLM Agents</b></i>, Kang et al., <a href="https://arxiv.org/abs/2510.00615" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>ACON: Optimizing Context Compression for Long-horizon LLM Agents</b></i>, Kang et al., <a href="https://arxiv.org/abs/2510.00615" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue" alt="ICLR Badge"></a></li>
 <li><i><b>ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization</b></i>, Wu et al., <a href="https://arxiv.org/abs/2509.13313" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
 <li><i><b>PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents</b></i>, Liu et al., <a href="https://arxiv.org/abs/2510.00413" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
 <li><i><b>Learning to Contextualize Web Pages for Enhanced Decision Making by LLM Agents</b></i> (LCoW), Lee et al., <a href="https://arxiv.org/abs/2503.10689" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.03-red" alt="arXiv Badge"></a></li>
@@ -269,9 +269,9 @@ Using LLMs or specialized models to produce condensed summaries of context segme
 <li><i><b>AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression</b></i>, Bai et al., <a href="https://arxiv.org/abs/2512.13956" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
 <li><i><b>LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models</b></i>, Jiang et al., <a href="https://aclanthology.org/2023.emnlp-main.825/" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2023.12-blue" alt="EMNLP Badge"></a>
     <a href="https://github.com/microsoft/LLMLingua" target="_blank"><img src="https://img.shields.io/github/stars/microsoft/LLMLingua.svg?style=social" alt="GitHub stars"></a></li>
-<li><i><b>LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression</b></i>, Jiang et al., <a href="https://arxiv.org/abs/2310.06839" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024-red" alt="arXiv Badge"></a>
+<li><i><b>LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression</b></i>, Jiang et al., <a href="https://arxiv.org/abs/2310.06839" target="_blank"><img src="https://img.shields.io/badge/ACL-2024-blue" alt="ACL Badge"></a>
     <a href="https://github.com/microsoft/LLMLingua" target="_blank"><img src="https://img.shields.io/github/stars/microsoft/LLMLingua.svg?style=social" alt="GitHub stars"></a></li>
-<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (BACM), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
+<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (BACM), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/FSE-2026-blue" alt="FSE Badge"></a></li>
 <li><i><b>Scaling Long-Horizon LLM Agent via Context-Folding</b></i> (Context-Folding), Sun et al., <a href="https://arxiv.org/abs/2510.11967" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
 <li><i><b>HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model</b></i> (HIAGENT), Hu et al., <a href="https://aclanthology.org/2025.acl-long.1575/" target="_blank"><img src="https://img.shields.io/badge/ACL-2025.07-blue" alt="ACL Badge"></a></li>
 <li><i><b>Beyond Static Summarization: Proactive Memory Extraction for LLM Agents</b></i> (ProMem), Yang et al., <a href="https://arxiv.org/abs/2601.04463" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
@@ -286,9 +286,9 @@ Selectively removing less important tokens, segments, or episodes from context.
 <li><i><b>ContextEvolve: Multi-Agent Context Compression for Systems Code Optimization</b></i>, Su et al., <a href="https://arxiv.org/abs/2602.02597" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
 <li><i><b>PoC: Performance-oriented Context Compression for Large Language Models via Performance Prediction</b></i>, Zhao et al., <a href="https://arxiv.org/abs/2603.19733" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.03-red" alt="arXiv Badge"></a></li>
 <li><i><b>Compressing Context to Enhance Inference Efficiency of Large Language Models</b></i> (Selective Context), Li et al., <a href="https://aclanthology.org/2023.emnlp-main.391/" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2023.12-blue" alt="EMNLP Badge"></a></li>
-<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (AgentDiet), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
+<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (AgentDiet), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/FSE-2026-blue" alt="FSE Badge"></a></li>
 <li><i><b>AttentionRAG: Attention-Guided Context Pruning in Retrieval-Augmented Generation</b></i>, Fang et al., <a href="https://arxiv.org/abs/2503.10720" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.03-red" alt="arXiv Badge"></a></li>
-<li><i><b>LongCodeZip: Compress Long Context for Code Language Models</b></i>, Shi et al., <a href="https://arxiv.org/abs/2510.00446" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>LongCodeZip: Compress Long Context for Code Language Models</b></i>, Shi et al., <a href="https://arxiv.org/abs/2510.00446" target="_blank"><img src="https://img.shields.io/badge/ASE-2025-blue" alt="ASE Badge"></a></li>
 <li><i><b>ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents</b></i>, Wu et al., <a href="https://arxiv.org/abs/2604.23069" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
 <li><i><b>AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management</b></i>, Tian et al., <a href="https://arxiv.org/abs/2512.10371" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
 <li><i><b>A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression</b></i> (TACO), Ren et al., <a href="https://arxiv.org/abs/2604.19572" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
@@ -303,7 +303,7 @@ Moving information out of the prompt into external stores and retrieving on dema
 <li><i><b>Context as a Tool: Context Management for Long-Horizon SWE-Agents</b></i> (CAT), Liu et al., <a href="https://arxiv.org/abs/2512.22087" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
 <li><i><b>Step-DeepResearch Technical Report</b></i>, Hu et al., <a href="https://arxiv.org/abs/2512.20491" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
 <li><i><b>WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research</b></i>, Li et al., <a href="https://arxiv.org/abs/2509.13312" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
-<li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a></li>
+<li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2025-blue" alt="NeurIPS Badge"></a></li>
 <li><i><b>A Scalable Benchmark for Repository-Oriented Long-Horizon Conversational Context Management</b></i> (LoCoEval Framework), Liu et al., <a href="https://arxiv.org/abs/2603.06358" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.03-red" alt="arXiv Badge"></a></li>
 <li><i><b>OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory</b></i>, Li et al., <a href="https://arxiv.org/abs/2604.26622" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
 <li><i><b>Git Context Controller: Manage the Context of LLM-based Agents like Git</b></i> (GCC), Wu et al., <a href="https://arxiv.org/abs/2508.00031" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
@@ -315,7 +315,7 @@ Compressing at the embedding, KV-cache, or visual representation level.
 
 <ul>
 <li><i><b>AgentOCR: Reimagining Agent History via Optical Self-Compression</b></i>, Feng et al., <a href="https://arxiv.org/abs/2601.04786" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
-<li><i><b>Q-KVComm: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression</b></i>, Kriuk & Ng, <a href="https://arxiv.org/abs/2512.17914" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
+<li><i><b>Q-KVComm: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression</b></i>, Kriuk & Ng, <a href="https://arxiv.org/abs/2512.17914" target="_blank"><img src="https://img.shields.io/badge/ICMSCI-2026-blue" alt="ICMSCI Badge"></a></li>
 <li><i><b>Cross-Modal Memory Compression for Efficient Multi-Agent Debate</b></i> (DebateOCR), Wu et al., <a href="https://arxiv.org/abs/2602.00454" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
 <li><i><b>Autoencoding-Free Context Compression for LLMs via Contextual Semantic Anchors</b></i> (SAC), Liu et al., <a href="https://arxiv.org/abs/2510.08907" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
 <li><i><b>Compressed Step Information Memory for End-to-End Agent Foundation Models</b></i> (CSIM), Liu et al., <a href="https://openreview.net/forum?id=vUG2hpVJWR" target="_blank"><img src="https://img.shields.io/badge/OpenReview-2025.09-orange" alt="OpenReview Badge"></a></li>
@@ -342,8 +342,8 @@ This axis captures the control logic that schedules compression, recovery, or me
 System-controlled policies apply fixed rules to trigger compression:
 
 <ul>
-<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (AgentDiet), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
-<li><i><b>The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management</b></i>, Lindenbauer et al., <a href="https://arxiv.org/abs/2508.21433" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
+<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (AgentDiet), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/FSE-2026-blue" alt="FSE Badge"></a></li>
+<li><i><b>The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management</b></i>, Lindenbauer et al., <a href="https://arxiv.org/abs/2508.21433" target="_blank"><img src="https://img.shields.io/badge/NeurIPS_Workshop-2025-blue" alt="NeurIPS Workshop Badge"></a></li>
 <li><i><b>SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents</b></i>, Wang et al., <a href="https://arxiv.org/abs/2601.16746" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
 </ul>
 
@@ -365,9 +365,9 @@ Agent-controlled policies make compression part of the agent's own action space:
 <ul>
 <li><i><b>Context as a Tool: Context Management for Long-Horizon SWE-Agents</b></i> (CAT), Liu et al., <a href="https://arxiv.org/abs/2512.22087" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
 <li><i><b>Active Context Compression: Autonomous Memory Management in LLM Agents</b></i> (Focus/ACC), Verma, <a href="https://arxiv.org/abs/2601.07190" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
-<li><i><b>AgentFold: Long-Horizon Web Agents with Proactive Context Management</b></i>, Ye et al., <a href="https://arxiv.org/abs/2510.24699" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>AgentFold: Long-Horizon Web Agents with Proactive Context Management</b></i>, Ye et al., <a href="https://arxiv.org/abs/2510.24699" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue" alt="ICLR Badge"></a></li>
 <li><i><b>Sculptor: Empowering LLMs with Cognitive Agency via Active Context Management</b></i>, Li et al., <a href="https://arxiv.org/abs/2508.04664" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
-<li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a></li>
+<li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2025-blue" alt="NeurIPS Badge"></a></li>
 </ul>
 
 ### Learned Policies
@@ -375,7 +375,7 @@ Agent-controlled policies make compression part of the agent's own action space:
 Learned policies optimize compression behavior from data:
 
 <ul>
-<li><i><b>ACON: Optimizing Context Compression for Long-horizon LLM Agents</b></i>, Kang et al., <a href="https://arxiv.org/abs/2510.00615" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>ACON: Optimizing Context Compression for Long-horizon LLM Agents</b></i>, Kang et al., <a href="https://arxiv.org/abs/2510.00615" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue" alt="ICLR Badge"></a></li>
 <li><i><b>COMPASS: Enhancing Agent Long-Horizon Reasoning with Evolving Context</b></i>, Wan et al., <a href="https://arxiv.org/abs/2510.08790" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
 <li><i><b>ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization</b></i>, Wu et al., <a href="https://arxiv.org/abs/2509.13313" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
 <li><i><b>AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression</b></i>, Bai et al., <a href="https://arxiv.org/abs/2512.13956" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
@@ -426,14 +426,14 @@ Coding agents require **high structural fidelity** — compressed context must p
 <ul>
 <li><i><b>SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents</b></i>, Wang et al., <a href="https://arxiv.org/abs/2601.16746" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
 <li><i><b>Context as a Tool: Context Management for Long-Horizon SWE-Agents</b></i> (CAT), Liu et al., <a href="https://arxiv.org/abs/2512.22087" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
-<li><i><b>The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management</b></i>, Lindenbauer et al., <a href="https://arxiv.org/abs/2508.21433" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
+<li><i><b>The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management</b></i>, Lindenbauer et al., <a href="https://arxiv.org/abs/2508.21433" target="_blank"><img src="https://img.shields.io/badge/NeurIPS_Workshop-2025-blue" alt="NeurIPS Workshop Badge"></a></li>
 <li><i><b>Active Context Compression: Autonomous Memory Management in LLM Agents</b></i> (Focus/ACC), Verma, <a href="https://arxiv.org/abs/2601.07190" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
-<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (AgentDiet), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
+<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (AgentDiet), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/FSE-2026-blue" alt="FSE Badge"></a></li>
 <li><i><b>ContextEvolve: Multi-Agent Context Compression for Systems Code Optimization</b></i>, Su et al., <a href="https://arxiv.org/abs/2602.02597" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
 <li><i><b>A Scalable Benchmark for Repository-Oriented Long-Horizon Conversational Context Management</b></i> (LoCoEval Framework), Liu et al., <a href="https://arxiv.org/abs/2603.06358" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.03-red" alt="arXiv Badge"></a></li>
 <li><i><b>SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context</b></i>, Lian et al., <a href="https://arxiv.org/abs/2604.11716" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
 <li><i><b>A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression</b></i> (TACO), Ren et al., <a href="https://arxiv.org/abs/2604.19572" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
-<li><i><b>LongCodeZip: Compress Long Context for Code Language Models</b></i>, Shi et al., <a href="https://arxiv.org/abs/2510.00446" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>LongCodeZip: Compress Long Context for Code Language Models</b></i>, Shi et al., <a href="https://arxiv.org/abs/2510.00446" target="_blank"><img src="https://img.shields.io/badge/ASE-2025-blue" alt="ASE Badge"></a></li>
 <li><i><b>CodeOCR: On the Effectiveness of Vision Language Models in Code Understanding</b></i>, Shi et al., <a href="https://arxiv.org/abs/2602.01785" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
 </ul>
 
@@ -442,13 +442,13 @@ Coding agents require **high structural fidelity** — compressed context must p
 Web agents face **heterogeneous observations** — HTML, screenshots, and DOM trees that need domain-specific compression.
 
 <ul>
-<li><i><b>AgentFold: Long-Horizon Web Agents with Proactive Context Management</b></i>, Ye et al., <a href="https://arxiv.org/abs/2510.24699" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
+<li><i><b>AgentFold: Long-Horizon Web Agents with Proactive Context Management</b></i>, Ye et al., <a href="https://arxiv.org/abs/2510.24699" target="_blank"><img src="https://img.shields.io/badge/ICLR-2026-blue" alt="ICLR Badge"></a></li>
 <li><i><b>ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization</b></i>, Wu et al., <a href="https://arxiv.org/abs/2509.13313" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
 <li><i><b>Learning to Contextualize Web Pages for Enhanced Decision Making by LLM Agents</b></i> (LCoW), Lee et al., <a href="https://arxiv.org/abs/2503.10689" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.03-red" alt="arXiv Badge"></a></li>
 <li><i><b>PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents</b></i>, Liu et al., <a href="https://arxiv.org/abs/2510.00413" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.10-red" alt="arXiv Badge"></a></li>
 <li><i><b>WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning</b></i>, Wang et al., <a href="https://arxiv.org/abs/2602.12852" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
-<li><i><b>A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis</b></i> (HTML-T5), Gur et al., <a href="https://arxiv.org/abs/2307.12856" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024-red" alt="arXiv Badge"></a></li>
-<li><i><b>WebArena: A Realistic Web Environment for Building Autonomous Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2307.13854" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024-red" alt="arXiv Badge"></a></li>
+<li><i><b>A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis</b></i> (HTML-T5), Gur et al., <a href="https://arxiv.org/abs/2307.12856" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024_(Oral)-blue" alt="ICLR Badge"></a></li>
+<li><i><b>WebArena: A Realistic Web Environment for Building Autonomous Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2307.13854" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024-blue" alt="ICLR Badge"></a></li>
 <li><i><b>OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory</b></i>, Li et al., <a href="https://arxiv.org/abs/2604.26622" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
 <li><i><b>AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management</b></i>, Tian et al., <a href="https://arxiv.org/abs/2512.10371" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
 </ul>
@@ -463,7 +463,7 @@ Research agents need **high recoverability** — the ability to retrieve externa
 <li><i><b>WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research</b></i>, Li et al., <a href="https://arxiv.org/abs/2509.13312" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
 <li><i><b>ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents</b></i>, Wu et al., <a href="https://arxiv.org/abs/2604.01664" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.04-red" alt="arXiv Badge"></a></li>
 <li><i><b>ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization</b></i>, Wu et al., <a href="https://arxiv.org/abs/2509.13313" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
-<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (BACM), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.09-red" alt="arXiv Badge"></a></li>
+<li><i><b>Improving the Efficiency of LLM Agent Systems through Trajectory Reduction</b></i> (BACM), Xiao et al., <a href="https://arxiv.org/abs/2509.23586" target="_blank"><img src="https://img.shields.io/badge/FSE-2026-blue" alt="FSE Badge"></a></li>
 <li><i><b>LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents</b></i>, Lu et al., <a href="https://arxiv.org/abs/2605.05191" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.05-red" alt="arXiv Badge"></a></li>
 </ul>
 
@@ -473,7 +473,7 @@ Multi-agent settings face unique challenges: inter-agent communication bandwidth
 
 <ul>
 <li><i><b>AOI: Context-Aware Multi-Agent Operations via Dynamic Scheduling and Hierarchical Memory Compression</b></i>, Bai et al., <a href="https://arxiv.org/abs/2512.13956" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026-red" alt="arXiv Badge"></a></li>
-<li><i><b>Q-KVComm: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression</b></i>, Kriuk & Ng, <a href="https://arxiv.org/abs/2512.17914" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.12-red" alt="arXiv Badge"></a></li>
+<li><i><b>Q-KVComm: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression</b></i>, Kriuk & Ng, <a href="https://arxiv.org/abs/2512.17914" target="_blank"><img src="https://img.shields.io/badge/ICMSCI-2026-blue" alt="ICMSCI Badge"></a></li>
 <li><i><b>Cross-Modal Memory Compression for Efficient Multi-Agent Debate</b></i> (DebateOCR), Wu et al., <a href="https://arxiv.org/abs/2602.00454" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
 <li><i><b>ContextEvolve: Multi-Agent Context Compression for Systems Code Optimization</b></i>, Su et al., <a href="https://arxiv.org/abs/2602.02597" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.02-red" alt="arXiv Badge"></a></li>
 <li><i><b>Self-Compression of Chain-of-Thought via Multi-Agent Reinforcement Learning</b></i> (SCMA), Chen et al., <a href="https://arxiv.org/abs/2601.21919" target="_blank"><img src="https://img.shields.io/badge/arXiv-2026.01-red" alt="arXiv Badge"></a></li>
@@ -495,8 +495,8 @@ Our survey proposes a four-dimensional evaluation metric system **Q = (D, R, P, 
 <b>Relevant Benchmarks and Evaluation</b>
 
 <ul>
-<li><i><b>WebArena: A Realistic Web Environment for Building Autonomous Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2307.13854" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024-red" alt="arXiv Badge"></a></li>
-<li><i><b>AgentBench: Evaluating LLMs as Agents</b></i>, Liu et al., <a href="https://arxiv.org/abs/2308.03688" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025-red" alt="arXiv Badge"></a></li>
+<li><i><b>WebArena: A Realistic Web Environment for Building Autonomous Agents</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2307.13854" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024-blue" alt="ICLR Badge"></a></li>
+<li><i><b>AgentBench: Evaluating LLMs as Agents</b></i>, Liu et al., <a href="https://arxiv.org/abs/2308.03688" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024-blue" alt="ICLR Badge"></a></li>
 <li><i><b>MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers</b></i>, Wang et al., <a href="https://arxiv.org/abs/2508.20453" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.08-red" alt="arXiv Badge"></a></li>
 </ul>
 
