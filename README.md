@@ -24,6 +24,7 @@ You can also open an issue in this repository for general discussions and sugges
 
 ## 📰 News
 
+- **[2026.05]** Our survey [*Context Compression for LLM Agents: A Survey of Methods, Failure Modes, and Evaluation*](https://www.preprints.org/manuscript/202605.2065) is released!
 - **[2026.04]** Repository initialized with comprehensive paper list from our survey
 
 ---
